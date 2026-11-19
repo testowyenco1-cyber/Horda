@@ -8,6 +8,7 @@ import {
   XCircle,
 } from 'lucide-react';
 import { CATEGORY_META } from '../data/products';
+import { PRODUCT_MEDIA } from '../data/product-media';
 import type { Product } from '../types/store';
 import { formatPLN, getDiscountPercent } from '../utils/catalog';
 import { ProductArtwork } from './ProductArtwork';
@@ -64,6 +65,7 @@ export function ProductCard({
             accentHex={product.accentHex}
             title={product.name}
             subtitle={product.series}
+            imageUrl={PRODUCT_MEDIA[product.id]?.imageUrl}
             className="group-hover:scale-[1.03] transition-transform duration-300"
           />
         </button>
