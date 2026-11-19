@@ -11,6 +11,7 @@ import type { NavSection, Product } from '../types/store';
 import { formatPLN } from '../utils/catalog';
 import { HordaLogo } from './BrandMark';
 import { ProductArtwork } from './ProductArtwork';
+import { PRODUCT_MEDIA } from '../data/product-media';
 
 interface TopBarAndHeaderProps {
   activeNav: NavSection;
@@ -184,6 +185,7 @@ export function TopBarAndHeader({
                             kind={item.artworkKind}
                             accentHex={item.accentHex}
                             title={item.name}
+                            imageUrl={PRODUCT_MEDIA[item.id]?.imageUrl}
                             showPlaceholderCaption={false}
                           />
                         </div>
