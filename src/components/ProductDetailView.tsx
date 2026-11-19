@@ -14,6 +14,7 @@ import {
   XCircle,
 } from 'lucide-react';
 import { CATEGORY_META } from '../data/products';
+import { PRODUCT_MEDIA } from '../data/product-media';
 import type { ArtworkKind, Product } from '../types/store';
 import {
   formatPLN,
@@ -67,8 +68,10 @@ export function ProductDetailView({
   const isInterested = interestedIds.includes(product.id);
   const totalInterest = interestCounts[product.id] ?? product.interestCount;
 
-  const galleryItems: ArtworkKind[] =
-    product.images.length > 0
+  const productMedia = PRODUCT_MEDIA[product.id];
+  const galleryItems: ArtworkKind[] = productMedia?.imageUrl
+    ? [product.artworkKind]
+    : product.images.length > 0
       ? (product.images as ArtworkKind[])
       : [product.artworkKind];
 
@@ -130,36 +133,53 @@ export function ProductDetailView({
               accentHex={product.accentHex}
               title={product.name}
               subtitle={`${product.series} · Poglądowa wizualizacja`}
+              imageUrl={productMedia?.imageUrl}
               angleIndex={activeImageIdx}
             />
           </div>
 
-          <div className="flex items-center gap-3 overflow-x-auto pb-1">
-            {galleryItems.map((kind, idx) => (
-              <button
-                key={`${kind}-${idx}`}
-                type="button"
-                onClick={() => setActiveImageIdx(idx)}
-                aria-label={`Widok ${idx + 1} produktu`}
-                className={`w-24 h-18 rounded-md overflow-hidden border transition-colors shrink-0 ${
-                  activeImageIdx === idx
-                    ? 'border-[#9CDEF7] ring-1 ring-[#9CDEF7]'
-                    : 'border-white/10 hover:border-white/30'
-                }`}
-              >
-                <ProductArtwork
-                  kind={kind}
-                  accentHex={product.accentHex}
-                  title={product.name}
-                  angleIndex={idx}
-                  showPlaceholderCaption={false}
-                />
-              </button>
-            ))}
-          </div>
-          <p className="text-[11px] text-[#C5CFD8]/55">
-            * Grafika ma charakter poglądowego placeholdera katalogowego do czasu podłączenia zdjęć docelowego asortymentu.
-          </p>
+          {!productMedia?.imageUrl && (
+            <div className="flex items-center gap-3 overflow-x-auto pb-1">
+              {galleryItems.map((kind, idx) => (
+                <button
+                  key={`${kind}-${idx}`}
+                  type="button"
+                  onClick={() => setActiveImageIdx(idx)}
+                  aria-label={`Widok ${idx + 1} produktu`}
+                  className={`w-24 h-18 rounded-md overflow-hidden border transition-colors shrink-0 ${
+                    activeImageIdx === idx
+                      ? 'border-[#9CDEF7] ring-1 ring-[#9CDEF7]'
+                      : 'border-white/10 hover:border-white/30'
+                  }`}
+                >
+                  <ProductArtwork
+                    kind={kind}
+                    accentHex={product.accentHex}
+                    title={product.name}
+                    angleIndex={idx}
+                    showPlaceholderCaption={false}
+                  />
+                </button>
+              ))}
+            </div>
+          )}
+          {productMedia?.imageUrl ? (
+            <p className="text-[11px] text-[#C5CFD8]/55 leading-relaxed">
+              Zdjęcie referencyjne:{" "}
+              <a href={productMedia.imageSourceUrl} target="_blank" rel="noreferrer" className="text-[#9CDEF7] hover:underline">
+                {productMedia.imageSourceLabel}
+              </a>
+              {" · "}Dane produktu:{" "}
+              <a href={productMedia.productSourceUrl} target="_blank" rel="noreferrer" className="text-[#9CDEF7] hover:underline">
+                {productMedia.productSourceLabel}
+              </a>
+              {" · "}Przed publikacją komercyjną potwierdź licencję zdjęcia.
+            </p>
+          ) : (
+            <p className="text-[11px] text-[#C5CFD8]/55">
+              * Grafika poglądowa — zdjęcie produktu nie zostało jeszcze zweryfikowane.
+            </p>
+          )}
         </div>
 
         {/* Right: Contiguous Purchase Module */}
