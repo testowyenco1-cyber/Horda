@@ -3,6 +3,7 @@ import { Bell, Heart, ShoppingBag, Trash2, X } from 'lucide-react';
 import type { Product } from '../types/store';
 import { formatPLN } from '../utils/catalog';
 import { ProductArtwork } from './ProductArtwork';
+import { PRODUCT_MEDIA } from '../data/product-media';
 
 interface WishlistDrawerProps {
   open: boolean;
@@ -90,6 +91,7 @@ export function WishlistDrawer({
                       kind={product.artworkKind}
                       accentHex={product.accentHex}
                       title={product.name}
+                      imageUrl={PRODUCT_MEDIA[product.id]?.imageUrl}
                       showPlaceholderCaption={false}
                     />
                   </button>
