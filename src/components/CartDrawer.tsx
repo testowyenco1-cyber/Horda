@@ -24,6 +24,7 @@ import {
   validateCheckoutForm,
 } from '../utils/catalog';
 import { ProductArtwork } from './ProductArtwork';
+import { PRODUCT_MEDIA } from '../data/product-media';
 
 interface CartDrawerProps {
   open: boolean;
@@ -248,6 +249,7 @@ export function CartDrawer({
                             kind={product.artworkKind}
                             accentHex={product.accentHex}
                             title={product.name}
+                            imageUrl={PRODUCT_MEDIA[product.id]?.imageUrl}
                             showPlaceholderCaption={false}
                           />
                         </div>
