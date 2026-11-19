@@ -88,7 +88,6 @@ export const PRODUCTS: Product[] = [
     images: ['pokemon_etb', 'pokemon_box', 'pokemon_accessories'],
     shortSummary: "9 boosterów Prismatic Evolutions, karta promo Eevee, koszulki i akcesoria do gry.",
     description: "Elite Trainer Box z dodatku Scarlet & Violet — Prismatic Evolutions. W pudełku znajduje się 9 boosterów, pełnoilustracyjna karta promo Eevee, 65 koszulek na karty, 45 kart Energii, przewodnik po dodatku, kości i znaczniki stanu oraz kolekcjonerskie pudełko z czterema przegródkami.",
-      'Kolekcjonerski Elite Trainer Box z dodatku Scarlet & Violet — Prismatic Evolutions. Zawiera kompletny zestaw turniejowy do gry i przechowywania kart wraz z foliowaną kartą promocyjną Eevee oraz kolekcjonerskim pudełkiem z przegródkami.',
     specs: [
       { label: "Język wydania", value: "Angielski (EN)" },
       { label: "Boostery", value: "9 × Prismatic Evolutions" },
@@ -127,7 +126,6 @@ export const PRODUCTS: Product[] = [
     images: ['pokemon_box', 'pokemon_booster'],
     shortSummary: "Fabryczny display zawierający 36 boosterów Scarlet & Violet — Surging Sparks.",
     description: "Display Pokémon TCG z dodatku Scarlet & Violet — Surging Sparks. Pudełko zawiera 36 fabrycznie zamkniętych boosterów z angielskiej edycji dodatku, przeznaczonych do otwierania lub kolekcjonowania w stanie sealed.",
-      'Pełny display box zawierający 36 oryginalnych boosterów Pokémon TCG: Scarlet & Violet — Surging Sparks. Idealny zarówno do otwierania w poszukiwaniu kart Special Illustration Rare, jak i jako pozycja do kolekcji sealed.',
     specs: [
       { label: "Liczba boosterów", value: "36 sztuk" },
       { label: "Język wydania", value: "Angielski (EN)" },
@@ -160,7 +158,6 @@ export const PRODUCTS: Product[] = [
     images: ['pokemon_box', 'pokemon_booster'],
     shortSummary: "6 boosterów z dodatku Scarlet & Violet — 151, poświęconego Pokémonom z Kanto.",
     description: "Booster Bundle z dodatku Scarlet & Violet — 151, w którym zebrano oryginalne 151 Pokémonów z regionu Kanto. Zestaw zawiera sześć boosterów. Produkt pozostaje w katalogu także wtedy, gdy jest chwilowo niedostępny.",
-      'Kultowy zestaw 6 boosterów z dodatku Scarlet & Violet — 151, celebrującego pierwszą generację regionu Kanto. Chwilowo wyprzedany — zgłoś zainteresowanie, aby otrzymać powiadomienie po nowej dostawie.',
     specs: [
       { label: "Liczba boosterów", value: "6 sztuk" },
       { label: "Język wydania", value: "Angielski (EN)" },
@@ -194,7 +191,6 @@ export const PRODUCTS: Product[] = [
     images: ['pokemon_booster'],
     shortSummary: "Pojedynczy, fabrycznie zamknięty booster z dodatku Stellar Crown.",
     description: "Pojedynczy sleeved booster Pokémon TCG z dodatku Scarlet & Violet — Stellar Crown. Każda paczka zawiera losowy zestaw kart z tego dodatku; konkretna zawartość nie jest znana przed otwarciem.",
-      'Pojedyncza paczka kart z dodatku Stellar Crown. Gwarantowane 3 karty foil w każdym boosterze oraz szansa na rzadkie karty Tera Pokémon ex.',
     specs: [
       { label: "Liczba paczek", value: "1 booster" },
       { label: "Język wydania", value: "Angielski (EN)" },
@@ -231,7 +227,6 @@ export const PRODUCTS: Product[] = [
     images: ['pokemon_etb', 'pokemon_booster'],
     shortSummary: "Kolekcjonerska puszka z kartą promo Shiny Charizard ex i 4 boosterami.",
     description: "Paldean Fates Tin z grafiką Shiny Charizard ex. Wariant Charizard zawiera foliowaną kartę promocyjną Shiny Charizard ex, cztery boostery z dodatku Scarlet & Violet — Paldean Fates oraz kartę z kodem do Pokémon TCG Live.",
-      'Elegancka metalowa puszka kolekcjonerska zawierająca błyszczącą kartę promocyjną Tera Shiny Charizard ex oraz 5 boosterów z uwielbianej serii Paldean Fates.',
     specs: [
       { label: "Karta promocyjna", value: "Shiny Charizard ex — foil" },
       { label: "Boostery", value: "4 × Paldean Fates" },
@@ -265,7 +260,6 @@ export const PRODUCTS: Product[] = [
     images: ['pokemon_accessories'],
     shortSummary: "Album XL na 624 karty, z kieszeniami ładowanymi z boku i zamkiem błyskawicznym.",
     description: "Duży album kolekcjonerski Vault X z serii Exo-Tec. Ma 26 dwustronnych stron z 12 kieszeniami ładowanymi z boku na każdej stronie, co pozwala przechować do 624 kart w standardowym rozmiarze. Okładka jest usztywniona i wodoodporna, a zamek pomaga zabezpieczyć zawartość podczas transportu.",
-      'Profesjonalny segregator dla kolekcjonerów TCG. Wzmocniona okładka Exo-Tec odporna na zachlapania, boczne kieszenie zapobiegające wypadaniu kart oraz miękkie przekładki chroniące przed zagnieceniami.',
     specs: [
       { label: "Pojemność", value: "Do 624 kart" },
       { label: "Układ", value: "12 kieszeni na stronę, 26 dwustronnych stron" },
@@ -303,7 +297,6 @@ export const PRODUCTS: Product[] = [
     images: ['pokemon_box'],
     shortSummary: "Japoński High Class Pack — fabryczny box zawierający 10 boosterów Terastal Festival ex.",
     description: "Japoński booster box Pokémon Card Game z dodatku High Class Pack — Terastal Festival ex (SV8a). Pudełko zawiera 10 boosterów w japońskiej wersji językowej. Zawartość pojedynczych paczek jest losowa.",
-      'Bezpośredni import z Japonii. High Class Pack Terastal Festival ex słynie ze znakomitej jakości druku oraz gwarantowanej karty Pokémon ex w każdym z 10 boosterów.',
     specs: [
       { label: "Język wydania", value: "Japoński (JP)" },
       { label: "Liczba boosterów", value: "10 sztuk" },
@@ -335,7 +328,6 @@ export const PRODUCTS: Product[] = [
     images: ['pokemon_accessories'],
     shortSummary: "Zestaw do ochrony kart: 100 sztywnych toploaderów 35pt i 100 miękkich koszulek.",
     description: "Zestaw ochronny do kart kolekcjonerskich w standardowym rozmiarze. Zawiera 100 sztywnych toploaderów Ultra PRO Regular 3 × 4 cala o grubości 35pt oraz 100 miękkich koszulek Penny Sleeves do wstępnego zabezpieczenia kart.",
-      'Kompletny pakiet ochronny dla najcenniejszych kart Pokémon i innych gier TCG w standardowym formacie 63.5 × 88.9 mm.',
     specs: [
       { label: "Toploadery", value: "100 × Regular 3 × 4 cala, 35pt" },
       { label: "Koszulki", value: "100 × Penny Sleeves" },
@@ -371,7 +363,6 @@ export const PRODUCTS: Product[] = [
     images: ['beyblade_top', 'beyblade_launcher'],
     shortSummary: "Starter Beyblade X typu Attack: Dran Sword 3-60F z wyrzutnią Winder Launcher.",
     description: "Oryginalny starter Takara Tomy z pierwszej fali Beyblade X. Zestaw zawiera top Dran Sword 3-60F oraz wyrzutnię Winder Launcher. Mechanizm Xtreme Dash wykorzystuje współpracę zębatek na bicie z szyną stadionu, aby nadać topowi dodatkowe przyspieszenie. Stadion sprzedawany jest osobno.",
-      'Ikoniczny bey startowy generacji Beyblade X od Takara Tomy. Dran Sword 3-60F wykorzystuje system zębatek Xtreme Dash, osiągając błyskawiczne przyspieszenie wzdłuż szyny stadionu.',
     specs: [
       { label: "Model", value: "BX-01 Dran Sword 3-60F" },
       { label: "Typ", value: "Attack" },
@@ -406,13 +397,11 @@ export const PRODUCTS: Product[] = [
     images: ['beyblade_stadium', 'beyblade_top'],
     shortSummary: "Zestaw do gry od razu po rozpakowaniu: stadion, 2 topy Beyblade X i 2 wyrzutnie.",
     description: "Zestaw startowy Takara Tomy z linii UX. W pudełku znajdują się stadion Beyblade X, dwa topy oraz dwie wyrzutnie, dzięki czemu można rozpocząć pojedynek bez dokupywania podstawowego sprzętu. Przed zakupem warto sprawdzić dokładny skład i oznaczenia na opakowaniu konkretnej wersji regionalnej.",
-      'Kompletny zestaw do natychmiastowych pojedynków w domu i na spotkaniach turniejowych. Zawiera oryginalny stadion Takara Tomy z opatentowaną szyną przyspieszającą oraz dwa zaawansowane beye z linii Unique Line: Dran Buster 1-60A i Wizard Rod 5-70DB.',
     specs: [
       { label: "Model", value: "UX-04 Battle Entry Set U" },
       { label: "Zawartość", value: "Stadion + 2 topy + 2 wyrzutnie" },
       { label: "Producent", value: "Takara Tomy" },
       { label: "Wiek", value: "6+" },
-      { label: "Rozmiar opakowania", value: "440 × 455 × 125 mm" },
     ],
     tags: ['DROP', 'LIMITOWANY'],
     isNew: true,
@@ -439,7 +428,6 @@ export const PRODUCTS: Product[] = [
     images: ['beyblade_stadium'],
     shortSummary: "Oryginalny stadion BX-10 z charakterystyczną zieloną szyną Xtreme.",
     description: "Stadion Takara Tomy BX-10 przeznaczony do pojedynków w systemie Beyblade X. Wewnętrzna szyna Xtreme współpracuje z mechanizmem topów, umożliwiając wykonywanie przyspieszeń X-Dash. Topy i wyrzutnie należy dokupić osobno.",
-      'Oficjalny stadion turniejowy BX-10 z wyraźnie zaznaczonymi strefami Xtreme Finish i Over Finish oraz przezroczystą kopułą zabezpieczającą.',
     specs: [
       { label: "Model", value: "BX-10 Xtreme Stadium" },
       { label: "Numer produktu Takara Tomy Asia", value: "910596" },
@@ -472,7 +460,6 @@ export const PRODUCTS: Product[] = [
     images: ['beyblade_launcher'],
     shortSummary: "Czarna wyrzutnia sznurkowa Takara Tomy do serii Beyblade X.",
     description: "Oryginalna wyrzutnia BX-18 z mechanizmem sznurkowym. Służy do wystrzeliwania topów Beyblade X bez używania osobnego paska ripcord. Top nie jest częścią zestawu; przed zakupem należy dopasować wyrzutnię do kierunku obrotu posiadanego topu.",
-      'Sznurkowa wyrzutnia turniejowa pozwalająca na szybkie, wielokrotne odpalenia bez konieczności każdorazowego wkładania paska ripcord.',
     specs: [
       { label: "Model", value: "BX-18 String Launcher" },
       { label: "Numer produktu Takara Tomy Asia", value: "913054" },
@@ -506,7 +493,6 @@ export const PRODUCTS: Product[] = [
     images: ['beyblade_top'],
     shortSummary: "Lewoskrętny starter Cobalt Dragoon 2-60C z dedykowaną wyrzutnią String Launcher L.",
     description: "Starter Takara Tomy BX-34 z topem Cobalt Dragoon 2-60C. To top typu Attack obracający się w lewo; zestaw zawiera kompatybilną lewoskrętną wyrzutnię String Launcher L. Stadion Beyblade X sprzedawany jest osobno.",
-      'Przełomowy dysk Cobalt Dragoon 2-60C obracający się w lewo (Left-Spin), zdolny do przejmowania energii obrotu przeciwnika. Nakład wyprzedany — zapisz zainteresowanie przed kolejnym dropem.',
     specs: [
       { label: "Model", value: "BX-34 Cobalt Dragoon 2-60C" },
       { label: "Typ", value: "Attack" },
@@ -541,7 +527,6 @@ export const PRODUCTS: Product[] = [
     images: ['beyblade_set', 'beyblade_top'],
     shortSummary: "Zestaw Hasbro z topem Soar Phoenix 9-60GF i wyrzutnią sznurkową.",
     description: "Zestaw Beyblade X Soar Phoenix Deluxe String Launcher Set od Hasbro. W komplecie znajduje się top Soar Phoenix 9-60GF oraz dopasowana wyrzutnia sznurkowa. To zachodnia wersja produktu — jej zawartości i oznaczeń nie należy utożsamiać z japońskimi starterami Takara Tomy.",
-      'Jeden z najbardziej pożądanych zestawów startowych Hasbro Beyblade X. Ciężkie ostrze Soar Phoenix o wysokiej masie uderzeniowej wraz z wyrzutnią sznurkową.',
     specs: [
       { label: "Model", value: "Soar Phoenix 9-60GF" },
       { label: "Producent", value: "Hasbro" },
@@ -573,7 +558,6 @@ export const PRODUCTS: Product[] = [
     images: ['beyblade_set'],
     shortSummary: "Oryginalne etui Takara Tomy do przechowywania topów Beyblade X i wyposażenia.",
     description: "BX-25 Gear Case to etui z linii akcesoriów Beyblade X. Zostało przygotowane do przechowywania i przenoszenia topów oraz elementów wyposażenia. To samo etui można wykorzystać do uporządkowania części i akcesoriów między treningami lub turniejami.",
-      'Wytrzymała walizka turniejowa z profilowaną pianką EVA, stworzona specjalnie pod wymiary dysków i wyrzutni Beyblade X.',
     specs: [
       { label: "Model", value: "BX-25 Gear Case" },
       { label: "Numer produktu Takara Tomy Asia", value: "913320" },
@@ -610,7 +594,6 @@ export const PRODUCTS: Product[] = [
     images: ['figure_scale', 'figure_prize'],
     shortSummary: "Diorama G.E.M.EX z pięcioma Pokémonami typu Ghost na wspólnej podstawce.",
     description: "Kolekcjonerska, wstępnie pomalowana figurka MegaHouse z serii G.E.M.EX. Diorama przedstawia pięć Pokémonów typu Ghost: Gengara, Mimikyu, Misdreavusa, Banette i Chandelure. Dynamiczna kompozycja z efektami przypominającymi mgłę została zaprojektowana do oglądania z różnych stron.",
-      'Ekskluzywna figurka kolekcjonerska z linii ARTFX J marki Kotobukiya. Półprzezroczyste efekty cienia oraz precyzyjne cieniowanie w fioletowo-granatowej tonacji czynią ją centralnym punktem każdej witryny.',
     specs: [
       { label: "Seria", value: "G.E.M.EX" },
       { label: "Postacie", value: "Gengar, Mimikyu, Misdreavus, Banette, Chandelure" },
@@ -645,7 +628,6 @@ export const PRODUCTS: Product[] = [
     images: ['figure_chibi'],
     shortSummary: "Ruchoma figurka Cynthii z dwiema twarzami, Poké Ballem i Garchompem.",
     description: "Nendoroid przedstawiający Cynthię, mistrzynię Pokémon z regionu Sinnoh. Zestaw obejmuje standardową i uśmiechniętą twarz, Poké Ball oraz figurkę jej partnera — Garchompa. Ruchome elementy pozwalają ustawiać postać w różnych scenach.",
-      'Oficjalne wznowienie jednego z najbardziej cenionych Nendoroidów Pokémon. W komplecie znajdują się trzy wymienne ekspresje twarzy, akcesorium Poké Ball oraz miniaturowy Garchomp.',
     specs: [
       { label: "Numer", value: "Nendoroid #507" },
       { label: "Seria", value: "Pokémon" },
@@ -681,7 +663,6 @@ export const PRODUCTS: Product[] = [
     images: ['figure_prize', 'figure_scale'],
     shortSummary: "Ruchoma figurka Lucario z linii S.H.Figuarts od Bandai.",
     description: "Figurka akcji Lucario z serii S.H.Figuarts. Konstrukcja z ruchomymi przegubami pozwala ustawiać postać w dynamicznych pozach. To japońskie wydanie z 2014 roku; dostępność i kompletność akcesoriów należy potwierdzić dla konkretnego egzemplarza.",
-      'Precyzyjnie zaprojektowane stawy S.H.Figuarts umożliwiają ustawienie Lucario w dynamicznych pozach bojowych wraz z błękitnym efektem Aura Sphere i podstawką ekspozycyjną.',
     specs: [
       { label: "Seria", value: "S.H.Figuarts" },
       { label: "Postać", value: "Lucario" },
@@ -716,7 +697,6 @@ export const PRODUCTS: Product[] = [
     images: ['figure_scale'],
     shortSummary: "Duża figurka G.E.M.EX przedstawiająca dwie Mega Ewolucje Charizarda.",
     description: "Figurka z serii G.E.M.EX od MegaHouse przedstawiająca Mega Charizard X i Mega Charizard Y w dynamicznej kompozycji z efektami płomieni. Produkt jest wstępnie pomalowaną figurką kolekcjonerską o wysokości około 210 mm, przygotowaną do ekspozycji z różnych stron.",
-      'Jedna z najbardziej imponujących statuetek kolekcjonerskich MegaHouse. Nakład pierwszej fali wyczerpany — kliknij powiadomienie, aby zasygnalizować chęć ponownego sprowadzenia.',
     specs: [
       { label: "Seria", value: "G.E.M.EX Pokémon" },
       { label: "Postacie", value: "Mega Charizard X i Mega Charizard Y" },
@@ -751,7 +731,6 @@ export const PRODUCTS: Product[] = [
     images: ['figure_prize'],
     shortSummary: "Figurka Rayquazy z kolekcji Pokémon Scale World od Bandai.",
     description: "Figurka Rayquazy z serii Pokémon Scale World, należącej do kolekcji Bandai Candy odwzorowującej Pokémony w spójnej skali względem postaci i świata gier. Zielony, wężowaty kształt, czerwone płetwy i żółte okręgi oddają charakterystyczny wygląd legendarnego Pokémona.",
-      'Efektowna figurka ekspozycyjna z wykończeniem metallic coat, prezentująca Rayquazę unoszącą się nad stylizowanymi chmurami.',
     specs: [
       { label: "Seria", value: "Pokémon Scale World" },
       { label: "Postać", value: "Rayquaza" },
@@ -786,7 +765,6 @@ export const PRODUCTS: Product[] = [
     images: ['figure_chibi'],
     shortSummary: "Edycja Snow Miku z 2026 roku w słodkiej, zimowej stylizacji.",
     description: "Nendoroid Snow Miku: Sweet Snow Ver. z kolekcji na 2026 rok, przygotowanej na 17. rocznicę postaci. Figurka ma pastelowo-zimowy strój i dodatki inspirowane słodyczami. W zestawie znajdują się trzy wymienne twarze, Rabbit Yukine oraz akcesoria ze słodyczami i tacą.",
-      'Limitowana figurka zimowa o krystalicznej kolorystyce lodowego błękitu i srebra, idealnie wpisująca się w estetykę kolekcji HORDA.',
     specs: [
       { label: "Numer", value: "Nendoroid #2939" },
       { label: "Seria", value: "Character Vocal Series 01: Hatsune Miku" },
